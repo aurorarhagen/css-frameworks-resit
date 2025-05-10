@@ -21,17 +21,22 @@
     <div class="container pt-5">
         <div class="row">
         <div class="col-lg-2">
-            <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" style="max-width: 100px;">
+            <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-width: 90px;">
         </div>
         <div class="col-lg-10">
-            <p>Create new post ...</p>
-            
+            <div class="form-group">
+             <label for="comment"></label>
+            <textarea class="form-control" rows="5" id="post" placeholder="Create new post..."></textarea>
+            </div>
+            <div class="pt-3">
+            <button class="btn btn-success">Post</button>
+        </div>
         </div>
     </div>
-        </div>
-    <div class="container">
+    </div>
+    <div class="container border-bottom pb-3">
         <div class="row">
-            <div class="dropdown col-md-2 pt-3">
+            <div class="dropdown col-md-2 pt-3 ">
                 <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Sort by
                 </button>
@@ -43,11 +48,77 @@
             </div>
         <div class="col-md-2">
             <form class="d-flex pt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 200px;">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" aria-label="Search" placeholder="Search posts..." style="width: 200px;">
+                <button class="btn btn-outline-success" type="submit">Search</button></form>
         </div>
     </div>
 </div>
+</div>
+<div class="container d-flex pt-3 pb-3 border-bottom">
+  <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">  
+    <div class="d-flex w-100 ps-3">
+        <div>
+            <h6>Olivia Turner</h6>
+            <p>Just came back from a great vacation in Paris! Got to see the Eiffel Tower and visit Louvre, had great coffee and croisants everyday. Can't wait to come back!</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+        </div>
+    </div>
+</div>
+</div>
+<div class="container d-flex d-flex pt-3 pb-3 border-bottom">
+    <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">
+    <div class="d-flex w-100 ps-3"> 
+        <div>
+            <h6>Chloe Chen</h6>
+            <p>Does anyone know any good second hand shops in London? Going there next weekend, can't wait!</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+            </div>
+    </div>
+</div>
+</div>
+<div class=" container d-flex d-flex pt-3 pb-3 border-bottom">
+    <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">
+    <div class="d-flex w-100 ps-3"> 
+        <div>
+            <h6>Ian Roberts</h6>
+            <p>Me and @chloechen just adopted a corgi! Does anyone know any local cafes that allow dogs?</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+        </div>
+    </div>
+    </div>
+</div>
+<div class=" container d-flex d-flex pt-3 pb-3 border-bottom">
+    <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">
+    <div class="d-flex w-100 ps-3">  
+        <div>
+            <h6>Justin Williams</h6>
+            <p>I am running laps for the Childrens' Charity this weekend! Hit me up if you want to donate. Thanks!</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+        </div>
+    </div>
+    </div>
+</div>
+<div class=" container d-flex d-flex pt-3 pb-3 border-bottom">
+    <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">
+    <div class="d-flex w-100 ps-3">  
+        <div>
+            <h6>Helena Colt</h6>
+            <p>I have an extra ticket for the Sabrina Carpenter show next Saturday if anyone want to join!</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+        </div>
+    </div>
+    </div>
+</div>
+<div class=" container d-flex d-flex pt-3 pb-3 border-bottom">
+    <img src="/images/sara-cervera-zEwgRzJJIvk-unsplash.jpg" alt="avatar" style="max-height: 100px;">
+    <div class="d-flex w-100 ps-3">  
+        <div>
+            <h6>Curtis Johnson</h6>
+            <p>I'm starting in my new job on Monday!</p>
+             <div class="row-auto item"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/klEQVR4nO1Uv0scURDekCJI0qQJkRBCQIuQaBWDgaQKUYKt25i9N4tgioh3M3cp7N6bPVExWFhFg9oKVgHThuRPsEmljfiDNDbxJwpemN13myO7a85TIUUGBhbm2++b97154zj/46zhlUv3wdAMMK0D4zEY3FCMs56mlirGD/KtytCc1EJMhJ2Wf08lz3GhG5h2gKnyZypDR2BoAAJ8E36nYvCn0tiV3XlMjks+5zu896Xrns4/sieqgKGTMIWM8aMfUJtgBKsMfa6K9JdL9xICMQnjUloDYHAwFjA4mIb5LUIfkgShj1TJaXycZSEwDktm1ZWmJ9autTT1QynKkZ0Gw9Vvb1j7DpLdGVwNiwE+bFTAk/uKbF5JCjDO2+JoowLAOG5PMJssauq0/u2oEbpzVnK/XLwLBndlCOQuUkGKcTHqgL64i+7VeskFq5i+2jFdyAR6unQLDG1Zq6brYq84V+RN2PH8Afrd7VPxPuNzMLgfPSws/41f7sxi93O6+KyupnwuvqyOLTCOS5cZnU/Ea4Sxpy7yGhG3unPEgto7iTyPbTlSGnudRgK4+CLeT4Y+uZPUNDQ1dK1mGPYUF14554kcF54qxm3r87cwo1NtS+1c5LFIUHgg+yVey4ybSufbnYuM1yPYrAwuK8bv8qicy4i+seGbkpdC/s/GLx6FTPJtAPaKAAAAAElFTkSuQmCC" style="width: 30px;">
+        </div>
+    </div>
+    </div>
 </div>
 </body>
 </html>
