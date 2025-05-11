@@ -12,22 +12,21 @@
 <body id="bg-home-page">
 <div class="px-4 py-5 bg-light position-absolute top-50 start-50 translate-middle rounded" style="width: 400px;">
   <h1 class="text-center text-primary">LinkUp</h1>
-  <form class="container pt-2">
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" required minlength="8">
-      <p>Forgot your password?</p>
-    </div>
-    <div>
-      <a href="/feed/index.html" class="d-grid gap-2 mx-auto">
-    <button type="button" class="btn btn-primary">Log In</button></a>
+  <form class="container pt-2" action="profile/index.html"  method="GET">
+  <div class="mb-3">
+    <label for="inputEmail" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
   </div>
-  </form>
-  <div class="text-center">
+  <div class="mb-3">
+    <label for="inputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword" required minlength="8">
+    <div class="form-text">Password must be at least 8 characters long.</div>
+  </div>
+  <div>
+    <button type="submit" class="btn btn-primary d-grid gap-2 mx-auto">Log In</button>
+  </div>
+</form>
+  <div class="text-center pt-4">
     <p>Don't have an account?</p>
     <h3>Sign up now</h3>
   </div>
