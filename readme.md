@@ -44,6 +44,9 @@ To run the app in dev mode, run the following commands:
 npm run dev
 ```
 
+### Prerequisites
+- Node.js and npm must be installed.  
+
 ## Contributing
 
 This is a school project and I am therefore not looking for contributors at the moment.
